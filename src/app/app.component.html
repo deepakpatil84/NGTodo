@@ -1,0 +1,4 @@
+<div *ngFor="let todo of (todos$ | async).todos">
+    <app-todo [todo]="todo"></app-todo>
+</div>
+<button (click)="addTodo()">Add</button>

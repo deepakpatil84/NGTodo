@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { StoreModule } from '@ngrx/store';
-import { todoReducer } from './state-management/reducer';
+import todoReducer  from './state-management/reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { CommonModule } from '@angular/common';
